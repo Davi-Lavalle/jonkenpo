@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    background-color: #f9e996;
+    display: flex;
+    justify-content: center;
+}
+
+.jogo{
+    display: flex;
+    
+}
+
+img{
+    width: 300px;
+    margin-top: 5%;
+
+}
+
+.placar{
+    font-size: 4em;
+    background-color: #F5C20B;
+    text-align: center;
+    border-style: groove;
+    border-color: black;
+    margin-top: 5%;
+}
+
+.Imaquina{
+    margin-left: 10%;
+}
+
+.batalha{
+    margin-top: 1%;
+}
+
+.batalha.hidden {
+    opacity: 0;
+}
+  
+.batalha.visible {
+    opacity: 1;
+}
+
+.novamente.hidden {
+    opacity: 0;
+}
+  
+.novamente.visible {
+    opacity: 1;
+}
+
+
+button{
+    background-color: #F5C20B;
+    width: 80px;
+    
+}
+
+.fogo{
+    color: red;
+    margin-right: 5%;
+}
+
+.agua{
+    color: blue;
+    margin-right: 5%;
+}
+
+.planta{
+    color: green;
+    margin-right: 5%;
+}
+
+.botoes.hidden {
+    opacity: 0;
+}
+  
+.botoes.visible {
+    opacity: 1;
+}
